@@ -27,22 +27,6 @@ The dataset was provided in flattened numerical format and reshaped into image t
 
 ## **Modeling Approach**
 
-### **Baseline Attempt (Discarded)**
-
-- CNN trained from scratch
-
-- Resulted in:
-
-  - Unstable validation accuracy
-
-  - Poor generalization
-
-  - Class prediction collapse
-
-- Conclusion: Not suitable for small datasets
-
-### **Final Model (Adopted)**
-
 - Transfer Learning using MobileNetV2
 
 - Pretrained on ImageNet
